@@ -25,6 +25,18 @@ def main():
     first_name = 'Kitae'
     print(f'Hello, his name is {first_name}')
 
+    # list
+    my_list = [1,2,3]
+    another_list = ['four','five']
+    total = my_list + another_list
+    total.append('six')
+
+    # pop() removes the value of the last index
+    total.pop()
+    popped_value = total.pop()
+    print(total)
+    print(popped_value)
+
 
 if __name__ == '__main__':
     main()
