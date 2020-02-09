@@ -37,6 +37,24 @@ def main():
     print(total)
     print(popped_value)
 
+    new_list = ['b','d','z','t','e']
+    num_list = [3,1,9,2]
+    new_tuple = (1,2,3,2)
+    print(num_list)
+    num_list.reverse()
+    print(num_list)
+    num_list.sort()
+    print(num_list)
+    print(num_list.pop())
+    print(len(num_list))
+    print(len(new_tuple))
+    print(new_tuple.count(2))
+    print(new_tuple.index(2))
+
+    myset = [1,1,1,1,2,2,2,3,3,3]
+    myset = set(myset)
+
+    print(1<2)
 
 if __name__ == '__main__':
     main()
